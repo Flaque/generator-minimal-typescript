@@ -8,7 +8,7 @@
     "tslib": "latest"
   },
   "devDependencies": {
-    "@types/node": "10.5.2",
+    "@types/node": "latest",
     "ts-node": "latest",
     "tslint": "latest",
     "typescript": "latest"
@@ -21,7 +21,7 @@
   ],
   "homepage": "<%= repoUrl%>",
   "keywords": [],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
