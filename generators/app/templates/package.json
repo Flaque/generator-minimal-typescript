@@ -17,18 +17,18 @@
     "node": ">=10.0.0"
   },
   "files": [
-    "/lib"
+    "/dist"
   ],
   "homepage": "<%= repoUrl%>",
   "keywords": [],
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "<%= repoUrl%>.git"
   },
   "scripts": {
-    "build": "rm -rf lib && tsc"
+    "build": "rm -rf dist && tsc"
   },
-  "types": "lib/index.d.ts"
+  "types": "dist/index.d.ts"
 }
