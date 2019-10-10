@@ -1,8 +1,9 @@
-# <%= packageName %>
+# <%= packageName %> [![License](https://img.shields.io/npm/l/<%= packageName %>.svg)](<%= repoUrl%>/blob/master/package.json)
 
+## Install
 
-[![Version](https://img.shields.io/npm/v/<%= packageName %>.svg)](https://npmjs.org/package/<%= packageName %>)
+```
+yarn add
+```
 
-[![Downloads/week](https://img.shields.io/npm/dw/<%= packageName %>.svg)](https://npmjs.org/package/<%= packageName %>)
-[![License](https://img.shields.io/npm/l/<%= packageName %>.svg)](<%= repoUrl%>/blob/master/package.json)
-
+## Usage

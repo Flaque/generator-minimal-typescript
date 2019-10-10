@@ -19,7 +19,7 @@ module.exports = class extends Generator {
     let packageName = path.basename(process.cwd());
     let author = this.username;
 
-    const filesForCopy = ["src", "tsconfig.json", "tslint.json"];
+    const filesForCopy = ["src", "tsconfig.json", "tslint.json", ".gitignore"];
     filesForCopy.forEach(f => {
       this.fs.copy(this.templatePath(f), this.destinationPath(f));
     });

@@ -1,5 +1,5 @@
 {
-  "name": "generator-minimal-typescript",
+  "name": "generator-tiny-ts-package",
   "version": "0.0.1",
   "description": "Make a minimal Typescript module, not an app",
   "homepage": "https://github.com/crucialfelix/generator-minimal-typescript",
